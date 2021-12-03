@@ -3487,3 +3487,123 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2021-12-03 16:20:10.556
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-12-03 16:27:27.606
+!MESSAGE An internal error occurred during: "Discard Changes".
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Checkout conflict with file: .metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+	at org.eclipse.jgit.api.CheckoutCommand.checkoutPath(CheckoutCommand.java:528)
+	at org.eclipse.jgit.api.CheckoutCommand.access$3(CheckoutCommand.java:522)
+	at org.eclipse.jgit.api.CheckoutCommand$2.apply(CheckoutCommand.java:513)
+	at org.eclipse.jgit.dircache.DirCacheEditor.applyEdits(DirCacheEditor.java:164)
+	at org.eclipse.jgit.dircache.DirCacheEditor.finish(DirCacheEditor.java:99)
+	at org.eclipse.jgit.dircache.BaseDirCacheEditor.commit(BaseDirCacheEditor.java:243)
+	at org.eclipse.jgit.dircache.DirCacheEditor.commit(DirCacheEditor.java:92)
+	at org.eclipse.jgit.api.CheckoutCommand.checkoutPathsFromCommit(CheckoutCommand.java:519)
+	at org.eclipse.jgit.api.CheckoutCommand.checkoutPaths(CheckoutCommand.java:425)
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:178)
+	at org.eclipse.egit.core.op.DiscardChangesOperation.discardChanges(DiscardChangesOperation.java:260)
+	at org.eclipse.egit.core.op.DiscardChangesOperation.discardChanges(DiscardChangesOperation.java:215)
+	at org.eclipse.egit.core.op.DiscardChangesOperation.access$0(DiscardChangesOperation.java:203)
+	at org.eclipse.egit.core.op.DiscardChangesOperation$1.run(DiscardChangesOperation.java:196)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.egit.core.op.DiscardChangesOperation.execute(DiscardChangesOperation.java:199)
+	at org.eclipse.egit.core.internal.job.JobUtil$2.runInWorkspace(JobUtil.java:107)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Could not rename file D:\java\spring\.metadata\.plugins\org.eclipse.m2e.logback.configuration\._0.log15619380823773681976.tmp to D:\java\spring\.metadata\.plugins\org.eclipse.m2e.logback.configuration\0.log
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkoutEntry(DirCacheCheckout.java:1516)
+	at org.eclipse.jgit.api.CheckoutCommand.checkoutPath(CheckoutCommand.java:525)
+	... 19 more
+Caused by: java.io.IOException: Could not rename file D:\java\spring\.metadata\.plugins\org.eclipse.m2e.logback.configuration\._0.log15619380823773681976.tmp to D:\java\spring\.metadata\.plugins\org.eclipse.m2e.logback.configuration\0.log
+	at org.eclipse.jgit.util.FileUtils.rename(FileUtils.java:323)
+	at org.eclipse.jgit.dircache.DirCacheCheckout.checkoutEntry(DirCacheCheckout.java:1514)
+	... 20 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-12-03 16:27:43.300
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-12-03 16:27:43.314
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-12-03 16:30:37.598
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-12-03 16:30:37.602
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-12-03 16:30:37.716
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-12-03 16:30:37.760
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-12-03 16:30:38.105
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-12-03 16:30:38.161
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-12-03 16:32:18.905
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-12-03 16:32:18.911
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-12-03 16:32:32.168
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-12-03 16:32:32.171
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.ui 4 0 2021-12-03 16:33:00.194
+!MESSAGE Unexpected exception while cleaning
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Could not delete file D:\java\spring\.metadata\.plugins\org.eclipse.m2e.core\nexus\0090eea814a82a57aa1f0afbc964b771\_m.cfs
+	at org.eclipse.jgit.api.CleanCommand.call(CleanCommand.java:104)
+	at org.eclipse.egit.ui.internal.clean.CleanRepositoryPage$9.run(CleanRepositoryPage.java:280)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.io.IOException: Could not delete file D:\java\spring\.metadata\.plugins\org.eclipse.m2e.core\nexus\0090eea814a82a57aa1f0afbc964b771\_m.cfs
+	at org.eclipse.jgit.util.FileUtils.handleDeleteException(FileUtils.java:232)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:225)
+	at org.eclipse.jgit.api.CleanCommand.cleanPath(CleanCommand.java:157)
+	at org.eclipse.jgit.api.CleanCommand.call(CleanCommand.java:96)
+	... 2 more
+Caused by: java.nio.file.AccessDeniedException: D:\java\spring\.metadata\.plugins\org.eclipse.m2e.core\nexus\0090eea814a82a57aa1f0afbc964b771\_m.cfs
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1146)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:191)
+	... 4 more
+
+!ENTRY org.eclipse.egit.core 4 0 2021-12-03 16:34:44.822
+!MESSAGE An exception occurred during push on URI https://github.com/Tanvirsblog/Spring.git: https://github.com/Tanvirsblog/Spring.git: https://github.com/Tanvirsblog/Spring.git/info/refs?service=git-receive-pack not found: Not Found
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/Tanvirsblog/Spring.git: https://github.com/Tanvirsblog/Spring.git/info/refs?service=git-receive-pack not found: Not Found
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:147)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: https://github.com/Tanvirsblog/Spring.git: https://github.com/Tanvirsblog/Spring.git/info/refs?service=git-receive-pack not found: Not Found
+	at org.eclipse.jgit.transport.TransportHttp.createNotFoundException(TransportHttp.java:600)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:668)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:137)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2021-12-03 16:34:44.825
+!MESSAGE Can't connect to any repository: https://github.com/Tanvirsblog/Spring.git (https://github.com/Tanvirsblog/Spring.git: https://github.com/Tanvirsblog/Spring.git/info/refs?service=git-receive-pack not found: Not Found)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-12-03 16:36:47.155
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-12-03 16:36:47.185
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
