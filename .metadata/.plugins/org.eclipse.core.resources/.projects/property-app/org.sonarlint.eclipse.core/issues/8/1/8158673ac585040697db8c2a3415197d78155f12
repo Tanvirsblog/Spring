@@ -1,0 +1,12 @@
+
+•
+java:S1128"cRemove this unused import 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer'.(åÀçP8êŠºÜ×/H²RMINORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(èå˜8ÆÙÒÕ×/H›RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¸ÒÉ³üÿÿÿÿ8ÆÙÒÕ×/HùRMAJORZ
+CODE_SMELL
+‚	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÑ’88ÆÙÒÕ×/HŸRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Æ’ôˆüÿÿÿÿ8üß‹Ý×/HÞRMAJORZ
+CODE_SMELL

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+       
+       <bean  class="com.xworkz.property.Photo">
+       
+       
+       <property name="photoSize" value="${p1}"></property>
+       
+       <property name="price" value="${p2}"></property>
+       
+       </bean>
+       
+       <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" id="PropertyPlaceholderConfigurer">
+       
+       <property name="locations" value="photo.properties"></property>
+       
+       </bean>
+       
+       <bean class="com.xworkz.property.Connection">
+       
+       <constructor-arg name="url" value="${}"></constructor-arg>
+       
+       <constructor-arg name="userName" value="${}"></constructor-arg>
+       
+       <constructor-arg name="password" value="${}"></constructor-arg>
+       
+       </bean>
+       
+       </beans>

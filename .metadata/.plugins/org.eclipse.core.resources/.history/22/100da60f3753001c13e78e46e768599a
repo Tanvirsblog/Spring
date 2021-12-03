@@ -1,0 +1,12 @@
+package com.xworkz.material;
+
+public class Wallet {
+
+	private String color;
+	private Brand brand;
+	private Material material;
+	private double price;
+	private Money money;
+	private ATMCard atmCard;
+	private Photo photo;
+}

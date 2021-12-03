@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="walletID" class="com.xworkz.material.Wallet">
+		<property name="color" value="ss"></property>
+		<property name="brand" value="C_ONE"></property>
+		<property name="material" ref="materialID"></property>
+		<property name="money" ref="moneyID"></property>
+		<property name="atmCard" ref="atmCardID"></property>
+		<property name="photo" ref="photoID"></property>
+		<property name="price" value="234"></property>
+	</bean>
+
+	<bean class="com.xworkz.material.Material" id="materialID"></bean>
+	<bean class="com.xworkz.material.Money" id="moneyID"></bean>
+	<bean class="com.xworkz.material.ATMCard" id="atmCardID"></bean>
+	<bean class="com.xworkz.material.Photo" id="photoID"></bean>
+
+</beans>

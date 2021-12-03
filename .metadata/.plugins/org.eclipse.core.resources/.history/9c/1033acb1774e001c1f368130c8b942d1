@@ -1,0 +1,9 @@
+package com.xworkz.cctv;
+
+public class CCTV {
+	
+	public String brand;
+	public int cameraSize;
+	public double price;
+
+}

@@ -1,0 +1,10 @@
+package com.xworkz.property;
+
+public class Tester {
+	
+	public static void main(String[] args) {
+		
+		String SpringConfigFile = "spring.xml"
+	}
+
+}

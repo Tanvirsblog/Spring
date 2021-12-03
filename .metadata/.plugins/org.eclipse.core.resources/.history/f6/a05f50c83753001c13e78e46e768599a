@@ -1,0 +1,10 @@
+package com.xworkz.material;
+
+public class ATMCard {
+	
+	private long cardNo;
+	private int cvv;
+	private CARDTYPE cardType;
+	private String color;
+	private java.util.Date expriyDate;
+}

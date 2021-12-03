@@ -1,0 +1,19 @@
+package com.xworkz.material;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Tester {
+	public static void main(String[] args) {
+		String springConfigFile = "spring.xml";
+		ApplicationContext springContainer = new ClassPathXmlApplicationContext();
+		System.out.println("springContainer is created " + springContainer.hashCode());
+		
+		Wallet wallet = springContainer.getBean(Wallet.class);
+		System.out.println(wallet.getClass().getSimpleName());
+		
+		System.out.println(wallet.getBrand());
+		System.out.println(wallet.getColor());
+		System.out.println(wallet.getPrice());
+	}
+}

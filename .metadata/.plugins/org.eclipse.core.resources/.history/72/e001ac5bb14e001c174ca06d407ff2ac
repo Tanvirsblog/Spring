@@ -1,0 +1,21 @@
+package com.xworkz.cctv;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Tester {
+	
+	public static void main(String[]args) {
+		
+		String springconfigfile = "spring.xml";
+		
+		ApplicationContext springContainer = new ClassPathXmlApplicationContext(springconfigfile);
+		
+		System.out.println("springcontainer is created" +springContainer );
+		
+		CCTV cctv = springContainer.getBean(CCTV.class);
+		System.out.println(cctv);
+		cctv.record();
+		cctv.autoDelete();
+	}
+}

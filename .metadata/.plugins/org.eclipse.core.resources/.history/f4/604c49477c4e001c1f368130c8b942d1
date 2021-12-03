@@ -1,0 +1,31 @@
+package com.xworkz.cctv;
+
+public class CCTV {
+
+//	public String brand;
+//	public int cameraSize;
+//	public double price;
+//	public String color;
+//
+//	public CCTV() {
+//		System.out.println(this.getClass().getSimpleName() + "object created");
+//	}
+//	public CCTV(String brand,int cameraSize,double price,String color) {
+//		this.brand = brand;
+//		this.cameraSize = cameraSize;
+//		this.price = price;
+//		this.color = color;
+//	}
+//		
+//
+//
+//	public void record() {
+//		System.out.println("Invoked record");
+//	}
+//
+//	public void autoDelete() {
+//		System.out.println("Invoked autoDelete");
+//
+//	}
+
+}

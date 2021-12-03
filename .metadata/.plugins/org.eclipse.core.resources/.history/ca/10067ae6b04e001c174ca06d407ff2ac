@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+        
+        <bean class="com.xworkz.cctv.CCTV" id="cCtv"></bean>
+        <constructor.arg name="brand" value="MI"></constructor.arg>
+         <constructor.arg name="color" value="red"></constructor.arg>
+         
+        <bean class="java.lang.String" id="s"></bean>
+        <bean class="java.lang.Number" id="n"></bean>
+
+</beans>

@@ -1,0 +1,22 @@
+package com.xworkz.property;
+
+import org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Tester {
+	
+	public static void main(String[] args) {
+		
+		String SpringConfigFile = "spring.xml";
+		ApplicationContext springContainer = new ClassPathXmlApplicationContext();
+		System.out.println("springContainer is created " + springContainer.hashCode());
+		
+		Photo photo = springContainer.getBean(Photo.class);
+		System.out.println(photo);
+		
+		PropertyPlaceholderConfigurer placeholderConfigure = springContainer.getBean(PropertyPlaceholderConfigurer.class);
+		System.out.println(placeholderConfigure);
+	}
+
+}

@@ -1,0 +1,22 @@
+
+Z
+java:S1068"'Remove this unused "cvv" private field.(ï† 8à‚¬Î×/HåRMAJORZ
+CODE_SMELL
+_
+java:S1068	",Remove this unused "cardType" private field.(†­ûè8à‚¬Î×/HßRMAJORZ
+CODE_SMELL
+^
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8º—„Ô×/HâRMINORZ
+CODE_SMELL
+]
+java:S1068"*Remove this unused "cardNo" private field.(ß¸å”8à‚¬Î×/HãRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.( œ°øÿÿÿÿ8®º°Î×/HáRMAJORZ
+CODE_SMELL
+a
+java:S1068".Remove this unused "expriyDate" private field.(Š›Ì±8à‚¬Î×/HàRMAJORZ
+CODE_SMELL
+\
+java:S1068
+")Remove this unused "color" private field.(È„…¦8à‚¬Î×/HäRMAJORZ
+CODE_SMELL

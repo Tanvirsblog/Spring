@@ -1,0 +1,8 @@
+package com.xworkz.property;
+
+public class Photo {
+	
+	private String photoSize;
+	
+	private double price;
+}
