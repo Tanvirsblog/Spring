@@ -1,10 +1,10 @@
 
+s	java:S125"<This block of commented-out lines of code should be removed.(ÈÂ¨ïúÿÿÿÿ8ãÚ²İ×/HåRMAJORZ
+CODE_SMELL
 j	java:S106
-"9Replace this use of System.out or System.err by a logger.(èå˜8şÁÚ×/HÖRMAJORZ
+"9Replace this use of System.out or System.err by a logger.(èå˜8şÁÚ×/HçRMAJORZ
 CODE_SMELL
-p	java:S106"9Replace this use of System.out or System.err by a logger.(±ß¢Ìşÿÿÿÿ8şÁÚ×/H×RMAJORZ
+s	java:S125"<This block of commented-out lines of code should be removed.(‰Ó¢ìüÿÿÿÿ8ãÚ²İ×/HèRMAJORZ
 CODE_SMELL
-s	java:S125"<This block of commented-out lines of code should be removed.(ÈÂ¨ïúÿÿÿÿ8ãÚ²İ×/HØRMAJORZ
-CODE_SMELL
-s	java:S125"<This block of commented-out lines of code should be removed.(‰Ó¢ìüÿÿÿÿ8ãÚ²İ×/HÚRMAJORZ
+p	java:S106"9Replace this use of System.out or System.err by a logger.(±ß¢Ìşÿÿÿÿ8şÁÚ×/HóRMAJORZ
 CODE_SMELL
