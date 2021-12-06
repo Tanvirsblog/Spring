@@ -43,6 +43,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.xworkz.annotation"/>
 			<item value="com.xworkz.connection"/>
 			<item value="com.xworkz.material"/>
 			<item value="com.xworkz.cctv"/>
@@ -50,6 +51,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="annotation-aap"/>
 			<item value="property-app"/>
 			<item value="material-app"/>
 			<item value="cctv-app"/>

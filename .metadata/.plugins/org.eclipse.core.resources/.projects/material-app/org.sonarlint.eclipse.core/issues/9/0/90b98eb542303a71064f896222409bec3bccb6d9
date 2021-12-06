@@ -1,15 +1,15 @@
 
-`
-java:S1068"(Remove this unused "size" private field.(Ğœßíúÿÿÿÿ8¡ğ¹Î×/HæRMAJORZ
+\
+java:S1068")Remove this unused "color" private field.(È„…¦8¡ğ¹Î×/H”RMAJORZ
 CODE_SMELL
 h
-java:S1068"0Remove this unused "isCoinOrNote" private field.(Ÿàšâùÿÿÿÿ8¡ğ¹Î×/HçRMAJORZ
-CODE_SMELL
-k	java:S106"9Replace this use of System.out or System.err by a logger.(˜Æ˜³8¡ğ¹Î×/HèRMAJORZ
-CODE_SMELL
-\
-java:S1068")Remove this unused "color" private field.(È„…¦8¡ğ¹Î×/HéRMAJORZ
+java:S1068"0Remove this unused "isCoinOrNote" private field.(Ÿàšâùÿÿÿÿ8¡ğ¹Î×/H•RMAJORZ
 CODE_SMELL
 `
-java:S1068"(Remove this unused "type" private field.(–î†ûÿÿÿÿ8¡ğ¹Î×/HêRMAJORZ
+java:S1068"(Remove this unused "size" private field.(Ğœßíúÿÿÿÿ8¡ğ¹Î×/H–RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(˜Æ˜³8¡ğ¹Î×/H—RMAJORZ
+CODE_SMELL
+`
+java:S1068"(Remove this unused "type" private field.(–î†ûÿÿÿÿ8¡ğ¹Î×/H˜RMAJORZ
 CODE_SMELL
