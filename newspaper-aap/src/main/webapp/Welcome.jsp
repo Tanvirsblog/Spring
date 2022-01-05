@@ -9,6 +9,7 @@
 
 
 <h1 >Welcome to NewsPaper App</h1>
+<h1>${validationMessage}</h1>
 
 <form action="submitnewspaper.do">
 <pre>
@@ -27,5 +28,19 @@ NOOFPAGES:<input type="text" name="noOfPages">
 </pre>
 <footer>copyRight@2021</footer>
 </form>
+<h2>${searchvalidationMesage}</h2>
+<form action="searchNewsPaper.do">
+<label>Search</label> <input type="text" name="searchNewsPaper">
+<input type="submit" value="searchNewsPaper">
+
+
+</form>
+<h1>${NOTFOUND}</h1>
+<ol>
+<li>${NEWSPAPERNAME}</li>
+<li>${PRICE}</li>
+<li>${LANGUAGE}</li>
+<li>${NOOFPAGES}</li>
+</ol>
 </body>
 </html>
