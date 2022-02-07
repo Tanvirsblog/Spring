@@ -4,6 +4,8 @@ import com.xworkz.vaccine.entity.UserSignUpEntity;
 
 public interface SignUpDAO {
 	
-	boolean saveUserSignUpEntity(UserSignUpEntity usersignupentity);
+	boolean saveUserSignUpEntity(UserSignUpEntity usersignupEntity);
+	
+	public String getPassword(String email);
 
 }

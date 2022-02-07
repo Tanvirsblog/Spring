@@ -21,15 +21,16 @@ public class SignUpController {
 	}
 
 	@RequestMapping("/Submit.do")
-	public String onSubmitbuttonClicked(@RequestParam(value="params",required=false) SignUpDTO SignUpDTO, Model model) {
+	public String onSubmitbuttonClicked(@RequestParam(value="signUpDTO", required=false) SignUpDTO signUpDTO,
+			Model model) {
 		System.out.println("Invoked onSubmitbuttonClicked() ");
-		if (this.singupservice.validateAlltheField(SignUpDTO)) {
-			String password = this.singupservice.encryptPassword();
-			boolean isSaved = this.singupservice.saveSignUpDTO(SignUpDTO);
-			if(isSaved) {
-				model.addAttribute("validationMessage","details have been saved");
-			}else {
-				model.addAttribute("validationMessage","details not saved");
+		boolean validateSignUpDTO = this.singupservice.validateSignUpDTO(signUpDTO);
+		if (validateSignUpDTO) {
+			boolean isSaved = this.singupservice.saveSignUpDTO(signUpDTO);
+			if (isSaved) {
+				model.addAttribute("validationMessage", "details have been saved");
+			} else {
+				model.addAttribute("validationMessage", "details not saved");
 			}
 			return "/WEB-INF/pages/Login.jsp";
 

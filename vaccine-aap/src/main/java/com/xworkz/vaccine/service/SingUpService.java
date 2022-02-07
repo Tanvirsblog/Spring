@@ -1,13 +1,19 @@
 package com.xworkz.vaccine.service;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import com.xworkz.vaccine.dto.SignUpDTO;
 
 public interface SingUpService {
 	
-
-	boolean validateAlltheField(SignUpDTO signupdto);
+	Map<String,String> map = new HashMap<String,String >();
 	
-	boolean saveSignUpDTO(SignUpDTO signupdto);
+	boolean validateSignUpDTO(SignUpDTO signUpDTO);
 	
-	String encryptPassword();
+	boolean saveSignUpDTO(SignUpDTO signUpDTO);
+	
+	boolean sendSignUpMail(String emailId);
+	
+	String getPassword(String emailId);
 }
